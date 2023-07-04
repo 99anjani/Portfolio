@@ -1,0 +1,43 @@
+.profile-header{
+    background-color: rgb(128, 126, 136);
+    position: fixed;
+    padding-right:100%;
+    
+}
+.container-fluid{
+    text-align :right;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-item{
+    font-size: 21px;
+    padding: 1px;
+    display: flex;
+    
+}
+.nav-link{
+    color: rgb(21, 12, 86);
+}
+.navbar-brand{
+    color: rgb(21, 12, 86);
+}
+#navbarNav{
+    
+    margin-left: 800px;
+    
+    
+}
+a:hover{
+   font-size: 20px; 
+   font-style: italic;
+}
+a:visited {
+    font-size: 20px; 
+    font-style: italic;
+    
+}

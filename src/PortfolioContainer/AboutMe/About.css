@@ -1,0 +1,51 @@
+.about-container {
+  background-color: rgb(10, 10, 10);
+  width: 100%;
+  color: white;
+  height: 90.5vh;
+}
+table {
+  width: 100%;
+}
+td {
+  padding: 20px;
+  margin: 25px;
+  
+}
+.about-main {
+  width: 90%;
+  background-color: rgb(92, 95, 99);
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.about-profile-img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin-top: 60px;
+}
+.about-details-name{
+  color: black;
+}
+.fa {
+  margin: 4px;
+  font-size: 25px;
+}
+.fa:hover {
+  margin: 4px;
+  font-size: 30px;
+}
+
+.about-me{
+  text-align: left;
+  width: 60%;
+}
