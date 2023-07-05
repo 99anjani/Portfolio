@@ -1,0 +1,83 @@
+.project-container {
+    height: 170vh;
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    margin-left: 0px;
+    background-image: url(../Assets/background.png);
+    background-position: center center; 
+    background-attachment: fixed;
+  }
+  
+  #project-details {
+    width: 80%;
+    background-color: rgb(43, 1, 63);
+    border-radius: 8px;
+    margin-top: 2.5em;
+    margin-bottom: 6em;
+    margin-left: 9em;
+    margin-right: 9em;
+    height: 24em;
+    align-items: center;
+    padding-top: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .se-project{
+    
+  }
+  table {
+    width: 90%;
+    margin-left: 30px;
+    
+  }
+  
+  .project-header{
+    
+      font-size: 45px;
+      color: rgb(108, 13, 197);
+      font-style: italic;
+      
+  }
+  .project-parts {
+    padding: 100px;
+    margin: 25px;
+  
+    padding-top: 100px;
+  }
+  .project{
+      padding: 30px;
+      
+  }
+  .project-item{
+      text-align: left;
+      padding-left: 30px;
+      width: 50%; 
+      padding-top: 10px;
+      margin-left: 50px
+  }
+  
+  tr p{
+      font-size: 17px;
+      margin-bottom: 2px;
+
+  }
+  
+  .project-item-detail{
+      width: 100%;
+      text-align: left;
+  }
+.project-img{
+   border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  padding-top: 0px;
+  
+  margin-top: 0px;
+  margin-bottom: 10px;
+    
+}
+  

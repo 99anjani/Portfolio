@@ -1,14 +1,11 @@
 .profile-container {
-  background-color: aquamarine;
   height: 100vh;
   background-color: black;
   color: white;
   background-size: cover;
   background-position: center;
   margin-left: 0px;
-  background-image: url(./Images/background.png);
-  background-size: cover;
-  background-size: cover;
+  background-image: url(../Assets/background.png);
   background-position: center center; 
   background-attachment: fixed;
 }
@@ -29,8 +26,7 @@ ul{
   right: 0;
   top: 12em;
   color: rgb(128, 126, 136);
-  font-size: 40px;
-  
+  font-size: 40px; 
 }
 .details{
   font-size: 25px;

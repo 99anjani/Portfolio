@@ -1,8 +1,12 @@
 .about-container {
-  background-color: rgb(10, 10, 10);
+  background-image: url(../Assets/background.png);
+  background-attachment: fixed;
   width: 100%;
   color: white;
   height: 90.5vh;
+  background-size: cover;
+ 
+  background-position: center center; 
 }
 table {
   width: 100%;
@@ -10,17 +14,16 @@ table {
 td {
   padding: 20px;
   margin: 25px;
-  
+
+  padding-top: 80px;
 }
 .about-main {
   width: 90%;
   background-color: rgb(92, 95, 99);
   border-radius: 8px;
   padding-top: 20px;
-  padding-bottom: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
-  padding-top: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -30,22 +33,44 @@ td {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  padding: 20px;
-  margin-top: 60px;
+  padding: 5px;
+  padding-bottom: 0px;
+  margin-top: 20px;
 }
-.about-details-name{
+.about-details-name {
   color: black;
 }
 .fa {
   margin: 4px;
   font-size: 25px;
+  color: black;
 }
 .fa:hover {
   margin: 4px;
   font-size: 30px;
 }
 
-.about-me{
+
+.about-me {
   text-align: left;
+  font-size: 22px;
   width: 60%;
+  padding-right: 120px;
+  color: rgb(91, 91, 91);
+  
+}
+h2{
+  color: rgb(77, 13, 138);
+  font-style: italic;
+}
+
+.about-discription{
+
+}
+.colz {
+  background-color: blueviolet;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }

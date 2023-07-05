@@ -1,7 +1,7 @@
 import React from "react";
-import Typical from "react-typical";
-import background_profile from "./Images/background.png";
-import profile from "./Images/profile.png";
+
+import background_profile from "../Assets/background.png";
+
 import "./Profile.css";
 
 export default function Profile() {

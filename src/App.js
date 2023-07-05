@@ -1,6 +1,8 @@
 import Profile from "./PortfolioContainer/Home/Profile";
 import Header from "./PortfolioContainer/Header/Header";
 import About from "./PortfolioContainer/AboutMe/About";
+import Resume from "./PortfolioContainer/Resume/Resume";
+import Project from './PortfolioContainer/Projects/Project'
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -24,7 +26,8 @@ function App() {
           <Header />
           <Profile />
           <About />
-        
+          <Resume />
+          <Project/>
       </div>
   );
 }
@@ -38,6 +41,7 @@ import "./App.css";
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 
 import { Link } from "react-router-dom";
+import Project from './PortfolioContainer/Projects/Project';
 
 function App() {
   return (

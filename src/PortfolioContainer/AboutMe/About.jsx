@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import background from "./Images/background.png";
-import profile from "../Home/Images/profile.png";
-import Typical from "react-typical";
+import background from "../Assets/background.png";
+import profile from "../Assets/profile.png";
+
 
 export default function Profile() {
   return (
@@ -54,7 +54,7 @@ export default function Profile() {
             </h2>
           </span> */}
           <h2>Who Am I .........</h2>
-          <p>
+          <p className="about-discription">
             I am a diligent person who has a profound enthusiasm for computer
             science and enjoys using various technologies. I am eager to take on
             new challenges with dedication and a sense of responsibility.

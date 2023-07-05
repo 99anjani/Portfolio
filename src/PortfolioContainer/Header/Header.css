@@ -21,10 +21,10 @@ nav{
     
 }
 .nav-link{
-    color: rgb(21, 12, 86);
+    color: rgb(77, 5, 98);
 }
 .navbar-brand{
-    color: rgb(21, 12, 86);
+    color: rgb(77, 5, 98);
 }
 #navbarNav{
     
@@ -35,9 +35,5 @@ nav{
 a:hover{
    font-size: 20px; 
    font-style: italic;
-}
-a:visited {
-    font-size: 20px; 
-    font-style: italic;
-    
+   
 }
