@@ -12,7 +12,7 @@ export default function Resume() {
           <tr className="resume-parts">
             <div className="education">
               <div id="edu-university">
-                <table>
+                <table className="resume-table">
                   <tr>
                     <td className="edu-item">
                       <h3>Bsc Information Technology (Hons)</h3>

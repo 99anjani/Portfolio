@@ -13,7 +13,7 @@ export default function Project() {
           <tr className="project-parts">
             <div className="project-done">
               <div className="se-project" id="project-details">
-                <table>
+                <table className="project-table">
                   <tr>
                     <td className="project-item">
                       <p>

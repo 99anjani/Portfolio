@@ -7,8 +7,8 @@ import profile from "../Assets/profile.png";
 export default function Profile() {
   return (
     <div className="about-container" id="about">
-      <table>
-        <td>
+      <table className="about-table">
+        <td className="about-td">
           <div className="about-main">
             <p>
               <img className="about-profile-img" src={profile}></img>

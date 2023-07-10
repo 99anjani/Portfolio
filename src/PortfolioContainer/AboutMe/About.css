@@ -8,10 +8,10 @@
  
   background-position: center center; 
 }
-table {
+.about-table {
   width: 100%;
 }
-td {
+.about-td {
   padding: 20px;
   margin: 25px;
 

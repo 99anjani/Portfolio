@@ -7,6 +7,7 @@ import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import { Link } from "react-router-dom";
+import Contact from "./PortfolioContainer/Contact/Contact";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <About />
           <Resume />
           <Project/>
+          <Contact/>
       </div>
   );
 }
