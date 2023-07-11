@@ -5,7 +5,7 @@ import "./Resume.css";
 
 export default function Resume() {
   return (
-    <div className="resume-container">
+    <div className="resume-container" id="resume">
       <div className="resume">
         <table>
           <tr className="edu-header">👩‍🎓 Education</tr>

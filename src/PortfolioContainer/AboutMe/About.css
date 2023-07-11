@@ -8,8 +8,12 @@
  
   background-position: center center; 
 }
+.about-con{
+  padding-top: 40px;
+}
 .about-table {
   width: 100%;
+  
 }
 .about-td {
   padding: 20px;
@@ -69,7 +73,7 @@ h2{
 }
 .colz {
   background-color: blueviolet;
-  padding-bottom: 5px;
+  padding-bottom:10px;
   padding-top: 5px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;

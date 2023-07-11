@@ -6,7 +6,7 @@ import "./Profile.css";
 
 export default function Profile() {
   return (
-    <div className="profile-container">
+    <div className="profile-container" id="home">
       <div className="profile">
         {/* <p>
           <img className="profile-img" src={profile}></img>

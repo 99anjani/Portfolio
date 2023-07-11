@@ -1,15 +1,20 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import background_contact from "../Assets/background.png";
-import { toast } from "react-toastify";
+import {ToastContainer, toast } from "react-toastify";
 import "./Contact.css";
+import { BrowserRouter } from "react-router-dom";
 
 export default function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    const { user_name, user_email, message } = form.current;
+    if (!user_name.value || !user_email.value || !message.value) {
+      toast.error("Please fill in all the fields.");
+      return;
+    }
     emailjs
       .sendForm(
         "service_crk1uiq",
@@ -20,7 +25,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success("Send Success");
+          toast.success(result.text);
         },
         (error) => {
           console.log(error.text);
@@ -28,9 +33,11 @@ export default function Contact() {
         }
       );
   };
+
+
   return (
-    <div className="contact-container">
-      
+    <div className="contact-container" id="contact">
+      <div className="ptf-contact">📧 Contact</div>
       <div className="contact">
         
         <form className="form-box" ref={form} onSubmit={sendEmail}>
@@ -52,7 +59,7 @@ export default function Contact() {
           </tr>
           </table>
         </form>
-        
+        <ToastContainer />
       </div>
     </div>
   );

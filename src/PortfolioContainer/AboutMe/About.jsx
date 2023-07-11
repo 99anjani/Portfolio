@@ -7,6 +7,7 @@ import profile from "../Assets/profile.png";
 export default function Profile() {
   return (
     <div className="about-container" id="about">
+      <div className="about-con">
       <table className="about-table">
         <td className="about-td">
           <div className="about-main">
@@ -61,6 +62,7 @@ export default function Profile() {
           </p>
         </td>
       </table>
+      </div>
     </div>
   );
 }

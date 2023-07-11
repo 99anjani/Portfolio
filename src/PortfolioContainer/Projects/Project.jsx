@@ -6,7 +6,7 @@ import "./Project.css";
 
 export default function Project() {
   return (
-    <div className="project-container">
+    <div className="project-container" id="project">
       <div className="project">
         <table>
           <tr className="project-header">👩‍💻 Projects</tr>
@@ -23,7 +23,7 @@ export default function Project() {
                     </td>
                     <td className="project-item">
                       <h4>Configuration Console</h4>
-                      <p>
+                      <p className="project-disc">
                         This is a web-based platform designed to streamline
                         communication. It enables partners to access client
                         servers, reducing developers' workload and enhancing
@@ -36,7 +36,7 @@ export default function Project() {
                 </table>
               </div>
               <div id="project-details">
-                <table>
+                <table className="project-table">
                   <tr>
                     <td className="project-item">
                       <p>

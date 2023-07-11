@@ -49,6 +49,7 @@
   }
   .project{
       padding: 30px;
+      padding-top: 100px;
       
   }
   .project-item{
@@ -59,7 +60,7 @@
       margin-left: 50px
   }
   
-  tr p{
+ .project-disc{
       font-size: 17px;
       margin-bottom: 2px;
 
