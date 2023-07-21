@@ -44,17 +44,9 @@ export default function Profile() {
           </div>
         </td>
         <td className="about-me">
-          {/* <span className="primary-text">
-            {" "}
-            <h2>
-              {" "}
-              <Typical
-                loops={Infinity}
-                steps={["Full-stack developer 👩‍💻", 1000]}
-              />
-            </h2>
-          </span> */}
-          <h2>Who Am I .........</h2>
+         
+          <h2 className="disc-header">Who Am I .........</h2>
+          
           <p className="about-discription">
             I am a diligent person who has a profound enthusiasm for computer
             science and enjoys using various technologies. I am eager to take on

@@ -1,19 +1,22 @@
 import React from "react";
+import { useRef } from "react";
 import "./Header.css";
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter } from "react-router-dom";
-
+import { FaBars, FaTimes } from "react-icons/fa";
 export default function Header() {
-  return (<BrowserRouter>
-    <div className="profile-header" id="header">
-      <nav className="navbar  navbar-expand-lg">
-        <div className="container-fluid">
-          {/* <a className="navbar-brand" href="#">
-            <h4>Nethmi Anjani 👩‍💻</h4>
-          </a> */}
-          
-          <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+ 
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
+  return (
+    <BrowserRouter>
+      <header>
+          <h5>Nethmi Anjani👩‍💻</h5>
+          <nav ref={navRef}>
+            <ul className="items">
               <li className="nav-item">
                 <Link className="nav-link" to="#">
                   Home
@@ -40,48 +43,15 @@ export default function Header() {
                 </Link>
               </li>
             </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+            <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+              <FaTimes />
+            </button>
+          </nav>
+          <button className="nav-btn" onClick={showNavbar}>
+            <FaBars />
+          </button>
+      </header>
     </BrowserRouter>
   );
 }
 
-
-{/* <li className="nav-item">
-                
-                <Link className="nav-link" to='/about'>About</Link>
-              </li> */}
-
-              /*
-              <ul className="navbar-nav">
-            <li className="nav-item">
-                <a className="nav-link" href="#">
-                 Home
-                </a>
-                
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-                
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Resume
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Project
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
-              */

@@ -1,18 +1,475 @@
+/* 400px */
+
+
+
+/* @media (max-width: 400px) {
+  .about-container {
+    height: 600px;
+    background-color: black;
+    color: white;
+    background-image: url(../Assets/background.png);
+    background-size: cover; 
+    background-attachment: fixed;
+    width: 100%;
+  }
+  .about-con{
+    padding-top: 10px;
+  }
+  .about-table {
+    width: 50%;
+    padding-right: 20px;
+    
+  }
+  .about-td {
+    padding-right:15px;
+    margin: 25px;
+    padding-top: 80px;
+  }
+  .about-main {
+    width: 150%;
+    background-color: rgb(92, 95, 99);
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .about-profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+  }
+  .about-details-name {
+    color: black;
+  }
+  .fa {
+    margin: 4px;
+    font-size: 25px;
+    color: black;
+  }
+  .fa:hover {
+    margin: 4px;
+    font-size: 30px;
+  }
+  
+  
+  .about-me {
+    font-size: 11px;
+    padding-left: 15px;
+    color: rgb(91, 91, 91);
+    
+  }
+  h2{
+    color: rgb(77, 13, 138);
+    font-style: italic;
+    font-size: 20px;
+    
+    
+  }
+  .disc-header{
+    padding-right: 40px;
+    padding-left: 60px;
+    display: inline-block;
+    padding-top: 10px;
+    
+  }
+  h4{
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .about-discription{
+    position:absolute;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-size: 11px;
+    text-align: justify;
+    
+  }
+  .colz {
+    background-color: blueviolet;
+    padding-bottom:15px;
+    padding-top: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+  }
+  
+} */
+/* 
+@media (max-width: 500px) {
+  .about-container {
+    height: 600px;
+    background-color: black;
+    color: white;
+    background-image: url(../Assets/background.png);
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+  .about-con{
+    padding-top: 20px;
+  }
+  .about-table {
+    width: 50%;
+    padding-right: 20px;
+    
+  }
+  .about-td {
+    padding-right:15px;
+    margin: 25px;
+    padding-top: 80px;
+  }
+  .about-main {
+    width: 150%;
+    background-color: rgb(92, 95, 99);
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .about-profile-img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    padding: 3px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+  }
+  .about-details-name {
+    color: black;
+  }
+  .fa {
+    margin: 4px;
+    font-size: 25px;
+    color: black;
+  }
+  .fa:hover {
+    margin: 4px;
+    font-size: 30px;
+  }
+  
+  
+  .about-me {
+    font-size: 11px;
+    padding-left: 40px;
+    color: rgb(91, 91, 91);
+    
+  }
+  h2{
+    color: rgb(77, 13, 138);
+    font-style: italic;
+    font-size: 20px;
+    
+  }
+  .disc-header{
+    padding-right: 40px;
+    padding-left: 60px;
+    display: inline-block;
+    
+    
+  }
+  h4{
+    font-size: 15px;
+  }
+  
+  .about-discription{
+    position:absolute;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-size: 11px;
+    text-align: justify;
+    
+  }
+  .colz {
+    background-color: blueviolet;
+    padding-bottom:10px;
+    padding-top: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+  .about-container {
+    height: 600px;
+    background-color: black;
+    color: white;
+    background-image: url(../Assets/background.png);
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+  .about-con{
+    padding-top: 20px;
+  }
+  .about-table {
+    width: 50%;
+    padding-right: 20px;
+    
+  }
+  .about-td {
+    padding-right:15px;
+    margin: 25px;
+    padding-top: 80px;
+  }
+  .about-main {
+    width: 150%;
+    background-color: rgb(92, 95, 99);
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .about-profile-img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    padding: 3px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+  }
+  .about-details-name {
+    color: black;
+  }
+  .fa {
+    margin: 4px;
+    font-size: 25px;
+    color: black;
+  }
+  .fa:hover {
+    margin: 4px;
+    font-size: 30px;
+  }
+  
+  
+  .about-me {
+    font-size: 11px;
+    padding-left: 40px;
+    color: rgb(91, 91, 91);
+    
+  }
+  h2{
+    color: rgb(77, 13, 138);
+    font-style: italic;
+    font-size: 20px;
+    
+  }
+  .disc-header{
+    padding-right: 40px;
+    padding-left: 60px;
+    display: inline-block;
+    
+    
+  }
+  h4{
+    font-size: 15px;
+  }
+  
+  .about-discription{
+    position:absolute;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-size: 11px;
+    text-align: justify;
+    
+  }
+  .colz {
+    background-color: blueviolet;
+    padding-bottom:10px;
+    padding-top: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+  .about-container {
+    height: 600px;
+    background-color: black;
+    color: white;
+    background-image: url(../Assets/background.png);
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+  .about-con{
+    padding-top: 20px;
+  }
+  .about-table {
+    width: 50%;
+    padding-right: 20px;
+    
+  }
+  .about-td {
+    padding-right:15px;
+    margin: 25px;
+    padding-top: 80px;
+  }
+  .about-main {
+    width: 150%;
+    background-color: rgb(92, 95, 99);
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .about-profile-img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    padding: 3px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+  }
+  .about-details-name {
+    color: black;
+  }
+  .fa {
+    margin: 4px;
+    font-size: 25px;
+    color: black;
+  }
+  .fa:hover {
+    margin: 4px;
+    font-size: 30px;
+  }
+  
+  
+  .about-me {
+    font-size: 11px;
+    padding-left: 40px;
+    color: rgb(91, 91, 91);
+    
+  }
+  h2{
+    color: rgb(77, 13, 138);
+    font-style: italic;
+    font-size: 20px;
+    
+  }
+  .disc-header{
+    padding-right: 40px;
+    padding-left: 70px;
+    display: inline-block;
+    
+    
+  }
+  h4{
+    font-size: 15px;
+  }
+  
+  .about-discription{
+    position:absolute;
+    padding-right: 35px;
+    padding-left: 70px;
+    font-size: 11px;
+    text-align: justify;
+    
+  }
+  .colz {
+    background-color: blueviolet;
+    padding-bottom:10px;
+    padding-top: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+  }
+  
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------1250------------*/
+
+/* @media (min-width:1250px){
 .about-container {
   background-image: url(../Assets/background.png);
   background-attachment: fixed;
   width: 100%;
   color: white;
-  height: 90.5vh;
+  height: 91vh;
   background-size: cover;
- 
   background-position: center center; 
 }
 .about-con{
-  padding-top: 40px;
+  padding-top: 20px;
+  
 }
 .about-table {
   width: 100%;
+  
   
 }
 .about-td {
@@ -35,11 +492,11 @@
 
 .about-profile-img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  padding: 5px;
+  width: 280px;
+  height: 280px;
+  padding: 3px;
   padding-bottom: 0px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .about-details-name {
   color: black;
@@ -59,6 +516,7 @@
   text-align: left;
   font-size: 22px;
   width: 60%;
+  
   padding-right: 120px;
   color: rgb(91, 91, 91);
   
@@ -69,7 +527,8 @@ h2{
 }
 
 .about-discription{
-
+  position:absolute;
+  padding-right: 200px;
 }
 .colz {
   background-color: blueviolet;
@@ -77,4 +536,252 @@ h2{
   padding-top: 5px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  
 }
+
+} */
+ 
+  .about-container {
+    background-image: url(../Assets/background.png);
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+    height: 95vh;
+    background-size: cover;
+    background-position: center center; 
+  }
+  .about-con{
+    padding-top: 100px;
+    padding-left: 60px;
+    
+  }
+  .about-table {
+    width: 100%;
+    
+    
+  }
+  .about-td {
+    padding: 20px;
+    margin: 25px;
+  
+    padding-top: 80px;
+  }
+  .about-main {
+    width: 90%;
+    background-color: rgb(92, 95, 99);
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .about-profile-img {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    padding: 3px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+  }
+  .about-details-name {
+    color: black;
+  }
+  .fa {
+    margin: 4px;
+    font-size: 25px;
+    color: black;
+  }
+  .fa:hover {
+    margin: 4px;
+    font-size: 30px;
+  }
+  
+  
+  .about-me {
+    text-align: left;
+    font-size: 22px;
+    width: 60%;
+    
+    padding-right: 120px;
+    color: rgb(91, 91, 91);
+    
+  }
+  h2{
+    color: rgb(77, 13, 138);
+    font-style: italic;
+  }
+  
+  .about-discription{
+    position:absolute;
+    padding-right: 200px;
+  }
+  .colz {
+    background-color: blueviolet;
+    padding-bottom:10px;
+    padding-top: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+  }
+  @media only screen and (max-width: 1000px) {
+    .about-container {
+     
+      height: 88vh;
+    }
+    .about-con{
+      padding-top: 120px;
+      padding-left: 40px;
+      
+      
+    }
+    .about-table {
+      width: 50%;
+      padding-right: 20px;
+      
+    }
+    .about-td {
+      padding-right:15px;
+      margin: 25px;
+      padding-top: 80px;
+    }
+    .about-main {
+      width: 150%;
+      
+      
+      padding-top: 20px;
+      margin-left: 15px;
+      margin-bottom: 20px;
+       }
+    
+    .about-profile-img {
+      
+      width: 170px;
+      height: 170px;
+      padding: 3px;
+      padding-bottom: 0px;
+      margin-top: 15px;
+    }
+    
+    .fa {
+      margin: 4px;
+      font-size: 25px;
+      color: black;
+    }
+    .fa:hover {
+      margin: 4px;
+      font-size: 30px;
+    }
+    
+    
+    .about-me {
+      font-size: 11px;
+      padding-left: 40px;
+      
+    }
+    h2{
+      
+      font-size: 20px;
+      
+    }
+    .disc-header{
+      padding-right: 40px;
+      padding-left: 70px;
+      display: inline-block;
+      
+      
+    }
+    h4{
+      font-size: 15px;
+    }
+    
+    .about-discription{
+      
+      padding-right: 35px;
+      padding-left: 70px;
+      font-size: 18px;
+      text-align: justify;
+      
+    }
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+    .about-container {
+      height: 88vh;
+    }
+    .about-con{
+      
+      padding-left: 20px;
+      
+    }
+    .about-table {
+      width: 70%;
+      padding-right: 10px;
+      
+    }
+    .about-td {
+      padding-right:15px;
+      margin: 25px;
+      padding-top: 80px;
+    }
+    .about-main {
+      width: 120%;
+      padding-top: 20px;
+      margin-left: 15px;
+      margin-bottom: 20px;
+       }
+    
+    .about-profile-img {
+      
+      width: 170px;
+      height: 170px;
+      padding: 3px;
+      padding-bottom: 0px;
+      margin-top: 15px;
+    }
+    
+    .fa {
+      margin: 4px;
+      font-size: 25px;
+      color: black;
+    }
+    .fa:hover {
+      margin: 4px;
+      font-size: 30px;
+    }
+    
+    
+    .about-me {
+      font-size: 11px;
+      padding-left: 5px;
+      
+    }
+    h2{
+      
+      font-size: 20px;
+      
+    }
+    .disc-header{
+      padding-right: 40px;
+      padding-left: 70px;
+      display: inline-block;
+      
+      
+    }
+    h4{
+      font-size: 15px;
+    }
+    
+    .about-discription{
+      
+      padding-right: 35px;
+      padding-left: 70px;
+      font-size: 13px;
+      text-align: justify;
+      
+    }
+    
+  }
